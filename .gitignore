@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+# notebooks
+.ipynb_checkpoints/
+# data
+data/raw/
+data/interim/
+data/processed/
+# Feast
+*.db
+feature_store.yaml.backup
+# env
+.env
+# OS/IDE
+.DS_Store
+.vscode/

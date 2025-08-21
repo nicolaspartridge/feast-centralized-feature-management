@@ -1,0 +1,8 @@
+[
+  "f_char_len",
+  "f_word_count",
+  "f_avg_word_len",
+  "f_digit_count",
+  "f_excl_count",
+  "f_upper_ratio"
+]

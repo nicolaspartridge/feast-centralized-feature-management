@@ -1,0 +1,16 @@
+project: sms_spam
+registry: data/registry.db
+provider: local
+
+offline_store:
+  type: postgres
+  host: ${POSTGRES_HOST}
+  port: ${POSTGRES_PORT}
+  database: ${POSTGRES_DATABASE}
+  db_schema: ${POSTGRES_SCHEMA}
+  user: ${POSTGRES_USER}
+  password: ${POSTGRES_PASSWORD}
+
+online_store:
+  type: redis
+  connection_string: ${REDIS_CONNECTION_STRING}
